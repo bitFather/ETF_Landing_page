@@ -15,24 +15,50 @@ function myFunction() {
     var w = window.outerWidth;
     var h = window.outerHeight;
     var txt = "Window size: width=" + w + ", height=" + h;
-    if (w > 1162) {
+    if (w > 800) {
         navToggle.classList.remove("nav-active");
         navToggle.classList.remove("li-active");
         console.log("remove")
     }
+
 }
+
+
+
+
+function RightMovee() {
+     let top = document.getElementById('scroll');
+     let winY = window.pageYOffset;
+     if (winY > 2000) {
+         top.classList.add("up-window");
+     } else if (winY < 2000) {
+        top.classList.remove("up-window");
+     }
+}
+
+window.addEventListener('scroll', RightMovee);
+
+
+
+
+
+
+
+
+
+
+
+
 
 var k = document.getElementById("about-click");
 var l = document.getElementById("features-click");
 var i = document.getElementById("compare-click");
 
-var c = document.getElementById("wallets-click");
-var kk = document.getElementById("exchanges-click");
 var b = document.getElementById("explorer-click");
 
 var a = document.getElementById("community-click");
 var r = document.getElementById("faq-click");
-var rr = document.getElementById("contacts-click");
+var cc = document.getElementById("contacts-click");
 
 k.addEventListener("click", function () {
     navToggle.classList.toggle("nav-active");
@@ -47,18 +73,6 @@ l.addEventListener("click", function () {
 });
 
 i.addEventListener("click", function () {
-    navToggle.classList.toggle("nav-active");
-    navToggle.classList.toggle("li-active");
-    console.log("aaa worked")
-});
-
-c.addEventListener("click", function () {
-    navToggle.classList.toggle("nav-active");
-    navToggle.classList.toggle("li-active");
-    console.log("aaa worked")
-});
-
-kk.addEventListener("click", function () {
     navToggle.classList.toggle("nav-active");
     navToggle.classList.toggle("li-active");
     console.log("aaa worked")
@@ -82,11 +96,12 @@ r.addEventListener("click", function () {
     console.log("aaa worked")
 });
 
-rr.addEventListener("click", function () {
+cc.addEventListener("click", function () {
     navToggle.classList.toggle("nav-active");
     navToggle.classList.toggle("li-active");
     console.log("aaa worked")
 });
+
 
 
 

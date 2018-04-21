@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_ch.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="icon" type="image/png" href="img/icon.jpg" />
     <title>Ethereum Fast</title>
@@ -16,8 +16,7 @@
 
 <body onresize="myFunction()">
     <section id="main">
-        <div id="main-bg" class="container-fluid">
-            <!-- <img id="logo-main" src="img/logo-main.png" alt=""> -->
+        <div id="main-bg" class="container-fluid"></div>
     </section>
     <section id="nav">
         <div id="burger">
@@ -29,18 +28,19 @@
                     <a id="about-click" href="#about">关于</a>
                 </li>
                 <li>
-                    <a id="features-click" href="#features">特征</a>
+                    <a id="features-click" href="#features">特征
+                    </a>
                 </li>
                 <li>
                     <a id="compare-click" href="#compare">比较
-                        </a>
+                    </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a id="wallets-click" href="#wallets">钱包</a>
                 </li>
                 <li>
                     <a id="exchanges-click" href="#exchanges">交易所</a>
-                </li>
+                </li> -->
                 <li>
                     <a id="explorer-click" href="#explorer">探险者</a>
                 </li>
@@ -48,8 +48,7 @@
                     <a id="community-click" href="#community">社区</a>
                 </li>
                 <li>
-                    <a id="faq-click" href="#faq">常问问题
-                        </a>
+                    <a id="faq-click" href="#faq">常问问题</a>
                 </li>
                 <li>
                     <a id="contacts-click" href="#contacts">往来</a>
@@ -59,14 +58,14 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class=" col-xl-1 col-lg-1 col-md-12 col-sm-12 col-xs-12 height">
+                    <div class=" col-xl-1 col-lg-1 col-md-1 height width-logo">
                         <ul id="nav-list" class="nav-list-logo">
-                            <li>
+                            <li id=logo-bril>
                                 <img id="logo" src="img/logo.png" alt="">
                             </li>
                         </ul>
                     </div>
-                    <div id="nav-list-item" class="col-lg-10 col-xl-11 col-sm-12 col-xs-12 text-align list-item  height">
+                    <div id="nav-list-item" class="col-xl-11 col-lg-11 col-md-11 text-align list-item  height">
                         <ul id="nav-list">
                             <li>
                                 <a href="#about">关于</a>
@@ -77,12 +76,12 @@
                             <li>
                                 <a href="#compare">比较</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#wallets">钱包</a>
                             </li>
                             <li>
                                 <a href="#exchanges">交易所</a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="#explorer">探险者</a>
                             </li>
@@ -92,23 +91,18 @@
                             <li>
                                 <a href="#faq">常问问题</a>
                             </li>
-                            <li>
+                            <li id="nav-right" >
                                 <a href="#contacts">往来</a>
                             </li>
                         </ul>
                     </div>
                     <div id="language">
                         <ul>
-                            <li id="language-pic">
-                                <a href="#">
-                                    <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                                </a>
+                            <li class="change-langeage">
+                                <a href="index.html">ENGLISH</a>
                             </li>
                             <li class="change-langeage">
-                                <a href="index.html">英语</a>
-                            </li>
-                            <li class="change-langeage">
-                                <a href="index_ch.html">中文</a>
+                                <a href="index_ch.html">CHINESE</a>
                             </li>
                         </ul>
                     </div>
@@ -139,12 +133,12 @@
                                 </p>
                                 <h2>你如何获得ETF？</h2>
                                 <p> 持有私钥，密钥库或助记符短语我们发现这对人们来说很危险                                      将他们的私钥导入我们的网站钱包或Meta Mask分支插件以获得EtherFast，所以
-                                                                         我们将向用户提供一个自定义节点，以将其添加到MEW或Meta Mask以获取ETF，或者您                                 
+                                                                         我们将向用户提供一个自定义节点，以将其添加到MEW或Meta Mask以获取ETF，或者您                               
                                     可以添加你的笔记。
                                 </p>
                                 <h2> 请勿保留私钥，密钥库或助记符短语</h2>
                                 <p> 如果您的以太坊保存在交易平台或那些不支持该平台的钱包中                                      私钥推导，您可以要求交易平台或钱包获得EtherFast
-                                                                         您。 用户可以联系交易平台或钱包提供商，并询问如何处理                                  
+                                                                         您。 用户可以联系交易平台或钱包提供商，并询问如何处理                                
                                     它。
                                 </p>
                                 <h2>我们还会联系着名的交易平台和钱包提供商以帮助您获得                                      你的ETF。</h2>
@@ -153,7 +147,7 @@
                                     预售已售罄（地址1，地址2）。 如果您需要任何帮助，请联系我们support@etfast.io。</p>
                             </div>
                         </div>
-                        <a id="telegram" href="https://t.me/etf_official" class="display-block">
+                        <a id="telegram" href="https://t.me/etf_official" target="_blank" class="display-block">
                             <i class="fa fa-paper-plane" fa-2x></i> 加入我们的电报</a>
                     </div>
 
@@ -179,7 +173,7 @@
                     <h1>
                         <span>关于</span>以太坊快速
                     </h1>
-                    <a href="img/logo.png" download>下载</a>
+                    <a href="img/dox.docx" download>下载白皮书</a>
                 </div>
                 <div id="form" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/-_ZgtakBJY8" frameborder="0" allow="autoplay; encrypted-media"
@@ -208,7 +202,7 @@
                 <div id="features-advavtages" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <i class="fa fa-commenting fa-5x" aria-hidden="true"></i>
                     <p>自治的社区治理体系
-                        </p>
+                    </p>
                 </div>
                 <div id="features-advavtages" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <i class="fa fa-percent  fa-5x" aria-hidden="true"></i>
@@ -217,12 +211,12 @@
                 <div id="features-advavtages" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <i class="fa fa-money  fa-5x" aria-hidden="true"></i>
                     <p>即时支付，适用于更多的交易场景
-                        </p>
+                    </p>
                 </div>
                 <div id="features-advavtages" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <i class="fa fa-level-up  fa-5x" aria-hidden="true"></i>
                     <p>高可扩展性，让主流人士可以使用DAPP
-                        </p>
+                    </p>
                 </div>
             </div>
         </div>
@@ -232,7 +226,7 @@
             <div class="row">
                 <div id="describe" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h1 class="padding-top-nav">
-                            比较
+                        比较
                     </h1>
                 </div>
                 <div id="compare-img" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -241,7 +235,7 @@
                         <tr>
                             <th>
                                 <p>比较
-                                    </p>
+                                </p>
                             </th>
                             <th>
                                 <img src="img/compare-one.png" alt="">
@@ -447,14 +441,14 @@
                     <h1>
                         <span>以太坊快速 </span>路线图</h1>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/one.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
                     <p>ETF网络将发布以实现最低的交易费用和反DDOS攻击。</p>
                 </div>
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/two.png" alt="">
                 </div>
 
@@ -463,14 +457,14 @@
                 </div>
 
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/three.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
                     <p>移动钱包和DApp应用商店将被发布以促进用户的生态发展。</p>
                 </div>
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/four.png" alt="">
                 </div>
 
@@ -479,14 +473,14 @@
                 </div>
 
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/five.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
                     <p>Masternode将在Mainnet上成功测试，实现实时事务和更高的事务并发性（大于1000TPS）</p>
                 </div>
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/six.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
@@ -494,7 +488,7 @@
                 </div>
 
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/seven.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
@@ -503,12 +497,12 @@
             </div>
         </div>
     </section>
-    <section id="wallets" class="wallets">
+    <!-- <section id="wallets" class="wallets">
         <div class="container-fluid">
             <div class="row">
                 <div id="describe" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h1 class="color-white  padding-top-nav">
-                            钱包
+                        钱包
                     </h1>
                 </div>
                 <div id="describe" class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -553,8 +547,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section id="exchanges" class="exchanges color-white">
+    </section> -->
+    <!-- <section id="exchanges" class="exchanges color-white">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -611,12 +605,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="community" class="community color-white">
         <h1 class="padding-top-nav">社区</h1>
         <div class="container-twitter">
-            <a class="twitter-timeline" width="100%" data-height="400" href="https://twitter.com/ethereum?ref_src=twsrc%5Etfw">Tweets by ethereum</a>
-        </div>
+            <a class="twitter-timeline" width="100%" data-height="400" href="https://twitter.com/EthereumFast">Tweets by ethereum</a>        </div>
     </section>
 
     <section id="faq" class="faq padding-top-nav">
@@ -624,7 +617,7 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 xs-12">
                     <h1 class="color-white">常问问题。
-                        </h1>
+                    </h1>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 xs-12 padding-faq">
                     <p>
@@ -655,7 +648,7 @@
                         <значение> 百万ETF每只ETF持有人每获得一只ETF总共获得1只ETF
                             <значение>百万ETF，另一个
                                 <значение> 百万ETF预留给团队的后期开发和基金运作。
-                            </p>
+                    </p>
                     <p>
                         <span>如何获得Masternode资格？</span>
                         <br>20K ETF需要锁定在用户的账户中。</p>
@@ -694,7 +687,7 @@
                                 <a href="https://t.me/etf_official">
                                     <i class="fa fa-telegram fa-2x" aria-hidden="true">
                                         <p>电报
-                                            </p>
+                                        </p>
                                     </i>
                                 </a>
                             </li>
@@ -724,7 +717,7 @@
                             </li>
                             <li>
                                 <a href="#compare">比较
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="#wallets">钱包</a>
@@ -740,7 +733,7 @@
                             </li>
                             <li>
                                 <a href="#faq">常问问题
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="#contacts">往来</a>
@@ -748,23 +741,13 @@
                         </ul>
                     </div>
                 </div>
-                <!-- <script type="text/javascript">
-                    (function () {
-                        var widget_id = "iyDLWbP4tI"; var d = document; var w = window; function l() {
-                            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "//code.jivosite.com/script/widget/" + widget_id; var ss = document.getElementsByTagName("script")[0]; ss.parentNode.insertBefore(s, ss);
-                        } if (d.readyState == "complete") { l(); } else { if (w.attachEvent) { w.attachEvent("onload", l); } else { w.addEventListener("load", l, false); } }
-                    })();
-                    console.log("jivo worked");
-                </script> -->
-
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 xs-12 text-reserved">
                     <h3>版权所有©2018年以太坊快速。 版权所有。</h3>
                 </div>
         </footer>
-
-        <section class="up-window">
-            <a class="scroll-up" href="#main">
-                <i class="up-window fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i>
+        <section>
+            <a href="#main">
+                <i id="scroll" class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i>
             </a>
         </section>
     </section>

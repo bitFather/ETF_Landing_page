@@ -185,6 +185,7 @@ a {
     color: black;
 }
 
+
 #telegram {
     display: inline-block;
     width: 20%;
@@ -347,7 +348,7 @@ input[type=submit] {
 #about-describe a {
     margin: 0 auto;
     display: block;
-    width: 300px;
+    width: 225px;
     font-size: 25px;
     padding: 16px;
     border: 2px solid #dbab83;
@@ -530,7 +531,6 @@ td,th {
 }
 
 /*SOCIAL*/
-
 .community {
     padding: 45px 0;
     text-align: center;
@@ -641,13 +641,17 @@ footer > .container-fluid > .row > div > #nav-hidden-list li {
     left: 40px;
 }
 
+.scroll-up: {
+    width: 50px;
+    height: 50px;
+}
+
 ._orinationRight_25.wrap_mW {
     padding-bottom: 70px;
 }
 
 /* MEDIA */
 /* HEADER*/
-
 @media (max-width: 800px) {
     #nav-list-item {
         display: none;
@@ -659,10 +663,6 @@ footer > .container-fluid > .row > div > #nav-hidden-list li {
 
     #burger  {
         visibility: visible;
-    }
-
-    .height {
-        height: 80px;
     }
 }
 

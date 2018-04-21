@@ -16,8 +16,7 @@
 
 <body onresize="myFunction()">
     <section id="main">
-        <div id="main-bg" class="container-fluid">
-            <!-- <img id="logo-main" src="img/logo-main.png" alt=""> -->
+        <div id="main-bg" class="container-fluid"></div>
     </section>
     <section id="nav">
         <div id="burger">
@@ -34,12 +33,12 @@
                 <li>
                     <a id="compare-click" href="#compare">Compare</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a id="wallets-click" href="#wallets">Wallets</a>
                 </li>
                 <li>
                     <a id="exchanges-click" href="#exchanges">Exchanges</a>
-                </li>
+                </li> -->
                 <li>
                     <a id="explorer-click" href="#explorer">Explorer</a>
                 </li>
@@ -57,14 +56,14 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class=" col-xl-1 col-lg-1 col-md-12 col-sm-12 col-xs-12 height">
+                    <div class=" col-xl-1 col-lg-1 col-md-1 height width-logo">
                         <ul id="nav-list" class="nav-list-logo">
-                            <li>
+                            <li id=logo-bril>
                                 <img id="logo" src="img/logo.png" alt="">
                             </li>
                         </ul>
                     </div>
-                    <div id="nav-list-item" class="col-lg-10 col-xl-11 col-sm-12 col-xs-12 text-align list-item  height">
+                    <div id="nav-list-item" class="col-xl-11 col-lg-11 col-md-11 text-align list-item  height">
                         <ul id="nav-list">
                             <li>
                                 <a href="#about">About</a>
@@ -75,12 +74,12 @@
                             <li>
                                 <a href="#compare">Compare</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#wallets">Wallets</a>
                             </li>
                             <li>
                                 <a href="#exchanges">Exchanges</a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="#explorer">Explorer</a>
                             </li>
@@ -90,18 +89,13 @@
                             <li>
                                 <a href="#faq">FAQ</a>
                             </li>
-                            <li>
+                            <li id="nav-right">
                                 <a href="#contacts">Contacts</a>
                             </li>
                         </ul>
                     </div>
                     <div id="language">
                         <ul>
-                            <li id="language-pic">
-                                <a href="#">
-                                    <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                                </a>
-                            </li>
                             <li class="change-langeage">
                                 <a href="index.html">ENGLISH</a>
                             </li>
@@ -157,7 +151,7 @@
                                     us support@etfast.io if you need any helps.</p>
                             </div>
                         </div>
-                        <a id="telegram" href="https://t.me/etf_official" class="display-block">
+                        <a id="telegram" href="https://t.me/etf_official" target="_blank" class="display-block">
                             <i class="fa fa-paper-plane" fa-2x></i> Join Our Telegram</a>
                     </div>
 
@@ -182,7 +176,7 @@
                     <h1>
                         <span>about</span> ethereum fast
                     </h1>
-                    <a href="img/logo.png" download>download</a>
+                    <a href="img/dox.docx" download>Download White Paper</a>
                 </div>
                 <div id="form" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/-_ZgtakBJY8" frameborder="0" allow="autoplay; encrypted-media"
@@ -445,14 +439,14 @@
                     <h1>
                         <span>ethereum fast </span>road map</h1>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/one.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
                     <p>The ETF network will be released to achieve minimum transaction fee and anti DDOS attacks.</p>
                 </div>
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/two.png" alt="">
                 </div>
 
@@ -462,7 +456,7 @@
                 </div>
 
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/three.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
@@ -470,7 +464,7 @@
                         of the user.</p>
                 </div>
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/four.png" alt="">
                 </div>
 
@@ -479,7 +473,7 @@
                 </div>
 
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/five.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
@@ -487,7 +481,7 @@
                         concurrency (greater than 1000TPS).</p>
                 </div>
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/six.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
@@ -495,7 +489,7 @@
                 </div>
 
 
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 text-align-center margin-top">
                     <img src="img/seven.png" alt="">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 margin-top">
@@ -505,7 +499,7 @@
             </div>
         </div>
     </section>
-    <section id="wallets" class="wallets">
+    <!-- <section id="wallets" class="wallets">
         <div class="container-fluid">
             <div class="row">
                 <div id="describe" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -555,8 +549,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section id="exchanges" class="exchanges color-white">
+    </section> -->
+    <!-- <section id="exchanges" class="exchanges color-white">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -613,11 +607,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="community" class="community color-white">
         <h1 class="padding-top-nav">Community</h1>
         <div class="container-twitter">
-            <a class="twitter-timeline" width="100%" data-height="400" href="https://twitter.com/ethereum?ref_src=twsrc%5Etfw">Tweets by ethereum</a>
+            <a class="twitter-timeline" width="100%" data-height="400" href="https://twitter.com/EthereumFast">Tweets by ethereum</a>
         </div>
     </section>
 
@@ -744,23 +738,13 @@
                         </ul>
                     </div>
                 </div>
-                <!-- <script type="text/javascript">
-                    (function () {
-                        var widget_id = "iyDLWbP4tI"; var d = document; var w = window; function l() {
-                            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "//code.jivosite.com/script/widget/" + widget_id; var ss = document.getElementsByTagName("script")[0]; ss.parentNode.insertBefore(s, ss);
-                        } if (d.readyState == "complete") { l(); } else { if (w.attachEvent) { w.attachEvent("onload", l); } else { w.addEventListener("load", l, false); } }
-                    })();
-                    console.log("jivo worked");
-                </script> -->
-
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 xs-12 text-reserved">
                     <h3>Copyright © 2018 Ethereum Fast. All Rights Reserved.</h3>
                 </div>
         </footer>
-
-        <section class="up-window">
-            <a class="scroll-up" href="#main">
-                <i class="up-window fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i>
+        <section>
+            <a href="#main">
+                <i id="scroll" class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i>
             </a>
         </section>
     </section>
