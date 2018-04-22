@@ -291,7 +291,7 @@ input[type=text] {
     display: inline-block;
     width: 30%;
     display: inline-block;
-    color:#dbab83;
+    color:black;
     border: 2px solid #dbab83;
     border-radius: 8px;
     text-align: center;
@@ -308,13 +308,13 @@ input[type=text] {
 
 input[type=submit] {
     display: inline-block;
-    color:#dbab83;
+    color:black;
     border: 2px solid #dbab83;
     border-radius: 8px;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    background-color: transparent;
+    background-color: #dbab83;
     margin-top: 24px;
     margin-bottom: 20px;
     padding: 14px;
@@ -347,6 +347,7 @@ input[type=submit] {
 #about-describe a {
     margin: 0 auto;
     display: block;
+	color:black;
     width: 300px;
     font-size: 25px;
     padding: 16px;
@@ -355,6 +356,8 @@ input[type=submit] {
     text-transform: uppercase;
     margin-top: 45px;
     margin-bottom: 45px;
+	background-color: #dbab83;
+	
 }
 
 .about iframe {
